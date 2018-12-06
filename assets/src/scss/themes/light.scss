@@ -1,0 +1,9 @@
+$gray-light-theme: #f3f3f3;
+$display-light-theme:block;
+$button-background-color-theme-light: yellow;
+
+$accordion-bgcolor: $gray-light-theme;
+$display: $display-light-theme;
+$button-background-color: $button-background-color-theme-light;
+
+@import '/../index';

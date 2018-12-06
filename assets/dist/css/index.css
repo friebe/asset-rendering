@@ -1,0 +1,11 @@
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.m-accordion {
+  padding: 20px;
+  background: #838282; }
+
+button {
+  background-color: #e2061c; }
