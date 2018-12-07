@@ -1,6 +1,7 @@
 // webpack v4#
 
 const path = require('path');
+const customerStyles = require('./entries.loader');
 
 
 module.exports = (env,options) => {
@@ -9,7 +10,8 @@ module.exports = (env,options) => {
 
     return{
         entry: {
-            functions: ['./assets/src/js/index.js', './assets/src/scss/index.scss', './assets/src/scss/themes/light.scss']
+            functions: ['./assets/src/js/index.js','./assets/src/scss/index.scss'],
+            customers: customerStyles
         },
         output: {
             path: path.resolve(__dirname, './assets'),

@@ -1,1 +1,1 @@
-console.log('mein js plugin');
+console.log('mein js plugin vor eins');

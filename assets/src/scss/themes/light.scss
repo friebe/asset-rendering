@@ -1,9 +1,19 @@
-$gray-light-theme: #f3f3f3;
-$display-light-theme:block;
-$button-background-color-theme-light: yellow;
+//// Set your brand colors
+$purple: green ;
+$pink: red ;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+//
+//// Update Bulma's global variablesJJ
+//$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown ;
+$grey-light: $beige-light;
+$primary: $purple ;
+$link: $pink ;
 
-$accordion-bgcolor: $gray-light-theme;
-$display: $display-light-theme;
-$button-background-color: $button-background-color-theme-light;
 
-@import '/../index';
+// Import only what you need from Bulma
+@import "/../../../../node_modules/bulma/sass/utilities/_all.sass";
+@import "/../../../../node_modules/bulma/sass/base/_all.sass";
+@import "/../../../../node_modules/bulma/sass/elements/button.sass";
